@@ -1,0 +1,7 @@
+# Goal - request a work session of specified duration
+int32 duration
+---
+# Result - empty for this action
+---
+# Feedback - current progress in seconds
+int32 seconds_elapsed
