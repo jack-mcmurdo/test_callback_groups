@@ -1,0 +1,27 @@
+{
+  "name": "ROS2 Humble Development",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "dev",
+  "workspaceFolder": "/home/root/ws/src/test_callback_groups",
+  "shutdownAction": "stopCompose",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        "ms-python.python"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  },
+
+  "forwardPorts": [],
+
+  "postCreateCommand": "echo 'ROS2 Humble devcontainer ready!'",
+
+  "remoteUser": "root"
+}
